@@ -1,0 +1,90 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" rx="16" fill="#01113E"/>
+  <rect x="1" y="1" width="798" height="498" rx="15" stroke="#172554" stroke-width="2"/>
+  
+  <!-- Header bar -->
+  <rect x="0" y="0" width="800" height="56" rx="16" fill="#010C2B"/>
+  <rect x="0" y="40" width="800" height="16" fill="#010C2B"/>
+  <line x1="0" y1="56" x2="800" y2="56" stroke="#172554"/>
+  
+  <rect x="24" y="18" width="20" height="20" rx="6" fill="#0068F5"/>
+  <text x="52" y="32" fill="#F1F5F9" font-family="sans-serif" font-size="14" font-weight="bold">AuraStore Pro</text>
+  
+  <rect x="220" y="14" width="360" height="28" rx="8" fill="#011959" stroke="#172554"/>
+  <text x="240" y="32" fill="#A7B2C5" font-family="sans-serif" font-size="11">Buscar catálogo de produtos inteligentes...</text>
+  
+  <circle cx="680" cy="28" r="14" fill="#011959"/>
+  <rect x="710" y="14" width="66" height="28" rx="6" fill="#0068F5"/>
+  <text x="724" y="32" fill="#FFFFFF" font-family="sans-serif" font-size="11" font-weight="600">Cart (3)</text>
+
+  <!-- Banner Hero Promo -->
+  <g transform="translate(24, 76)">
+    <rect width="752" height="150" rx="12" fill="url(#bannerGrad)" stroke="#172554"/>
+    <text x="32" y="45" fill="#10C4FC" font-family="sans-serif" font-size="12" font-weight="bold" letter-spacing="2">NOVA GERAÇÃO DE E-COMMERCE</text>
+    <text x="32" y="80" fill="#F1F5F9" font-family="sans-serif" font-size="24" font-weight="bold">Checkout Ultra-Rápido &amp; IA de Recomendação</text>
+    <text x="32" y="106" fill="#A7B2C5" font-family="sans-serif" font-size="13">Conversão otimizada com 0.4s de resposta e gateways integrados.</text>
+    <rect x="32" y="118" width="120" height="24" rx="6" fill="#0068F5"/>
+    <text x="54" y="134" fill="#FFFFFF" font-family="sans-serif" font-size="11" font-weight="600">Ver Coleção</text>
+    
+    <!-- Graphic accents -->
+    <circle cx="670" cy="75" r="50" fill="#0068F5" fill-opacity="0.2"/>
+    <circle cx="670" cy="75" r="30" stroke="#10C4FC" stroke-width="2" stroke-dasharray="8 8"/>
+  </g>
+
+  <!-- Products Row -->
+  <g transform="translate(24, 246)">
+    <!-- Product 1 -->
+    <rect width="176" height="230" rx="10" fill="#011959" stroke="#172554"/>
+    <rect x="12" y="12" width="152" height="110" rx="8" fill="#010C2B"/>
+    <circle cx="88" cy="67" r="28" fill="#0068F5" fill-opacity="0.3"/>
+    <rect x="76" y="55" width="24" height="24" rx="4" fill="#10C4FC"/>
+    <text x="14" y="145" fill="#F1F5F9" font-family="sans-serif" font-size="12" font-weight="600">Kit Smart Gateway</text>
+    <text x="14" y="165" fill="#10C4FC" font-family="sans-serif" font-size="13" font-weight="bold">R$ 289,90</text>
+    <rect x="12" y="184" width="152" height="32" rx="6" fill="#0068F5"/>
+    <text x="54" y="204" fill="#FFFFFF" font-family="sans-serif" font-size="11" font-weight="600">Comprar Agora</text>
+
+    <!-- Product 2 -->
+    <g transform="translate(192, 0)">
+      <rect width="176" height="230" rx="10" fill="#011959" stroke="#172554"/>
+      <rect x="12" y="12" width="152" height="110" rx="8" fill="#010C2B"/>
+      <circle cx="88" cy="67" r="28" fill="#0032A7" fill-opacity="0.4"/>
+      <polygon points="88,48 106,78 70,78" fill="#0068F5"/>
+      <text x="14" y="145" fill="#F1F5F9" font-family="sans-serif" font-size="12" font-weight="600">Dispositivo Sensor IoT</text>
+      <text x="14" y="165" fill="#10C4FC" font-family="sans-serif" font-size="13" font-weight="bold">R$ 419,00</text>
+      <rect x="12" y="184" width="152" height="32" rx="6" fill="#0068F5"/>
+      <text x="54" y="204" fill="#FFFFFF" font-family="sans-serif" font-size="11" font-weight="600">Comprar Agora</text>
+    </g>
+
+    <!-- Product 3 -->
+    <g transform="translate(384, 0)">
+      <rect width="176" height="230" rx="10" fill="#011959" stroke="#172554"/>
+      <rect x="12" y="12" width="152" height="110" rx="8" fill="#010C2B"/>
+      <circle cx="88" cy="67" r="28" fill="#011959"/>
+      <rect x="74" y="53" width="28" height="28" rx="8" stroke="#10C4FC" stroke-width="2"/>
+      <text x="14" y="145" fill="#F1F5F9" font-family="sans-serif" font-size="12" font-weight="600">Hub Central de Automação</text>
+      <text x="14" y="165" fill="#10C4FC" font-family="sans-serif" font-size="13" font-weight="bold">R$ 649,00</text>
+      <rect x="12" y="184" width="152" height="32" rx="6" fill="#0068F5"/>
+      <text x="54" y="204" fill="#FFFFFF" font-family="sans-serif" font-size="11" font-weight="600">Comprar Agora</text>
+    </g>
+
+    <!-- Product 4 -->
+    <g transform="translate(576, 0)">
+      <rect width="176" height="230" rx="10" fill="#011959" stroke="#172554"/>
+      <rect x="12" y="12" width="152" height="110" rx="8" fill="#010C2B"/>
+      <circle cx="88" cy="67" r="28" fill="#0068F5" fill-opacity="0.2"/>
+      <circle cx="88" cy="67" r="14" fill="#10C4FC"/>
+      <text x="14" y="145" fill="#F1F5F9" font-family="sans-serif" font-size="12" font-weight="600">Módulo Conector Cloud</text>
+      <text x="14" y="165" fill="#10C4FC" font-family="sans-serif" font-size="13" font-weight="bold">R$ 179,50</text>
+      <rect x="12" y="184" width="152" height="32" rx="6" fill="#0068F5"/>
+      <text x="54" y="204" fill="#FFFFFF" font-family="sans-serif" font-size="11" font-weight="600">Comprar Agora</text>
+    </g>
+  </g>
+
+  <defs>
+    <linearGradient id="bannerGrad" x1="0" y1="0" x2="752" y2="150" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0032A7" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#011959" stop-opacity="0.9"/>
+    </linearGradient>
+  </defs>
+</svg>
+

@@ -1,0 +1,100 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg-main: #010C2B;
+  --color-bg-secondary: #01113E;
+  --color-bg-card: #011959;
+  --color-blue-institutional: #0032A7;
+  --color-blue-primary: #0068F5;
+  --color-blue-cyan: #10C4FC;
+  --color-text-main: #F1F5F9;
+  --color-text-secondary: #A7B2C5;
+  --color-border-dark: #172554;
+
+  --font-heading: var(--font-space-grotesk), sans-serif;
+  --font-sans: var(--font-inter), sans-serif;
+}
+
+:root {
+  --bg-main: #010C2B;
+  --bg-secondary: #01113E;
+  --bg-card: #011959;
+  --blue-institutional: #0032A7;
+  --blue-primary: #0068F5;
+  --blue-cyan: #10C4FC;
+  --text-main: #F1F5F9;
+  --text-secondary: #A7B2C5;
+  --border-dark: #172554;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  color-scheme: dark;
+}
+
+body {
+  background-color: #010C2B;
+  color: #F1F5F9;
+  font-family: var(--font-inter), system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  overflow-x: hidden;
+  selection-background-color: #0068F5;
+  selection-color: #ffffff;
+}
+
+::selection {
+  background-color: #0068F5;
+  color: #ffffff;
+}
+
+/* Custom Tech Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #010C2B;
+}
+::-webkit-scrollbar-thumb {
+  background: #172554;
+  border-radius: 5px;
+  border: 2px solid #010C2B;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #0068F5;
+}
+
+/* Subtle Tech Glow and Glass Utilities */
+.glow-card {
+  position: relative;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.glow-card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  box-shadow: 0 0 24px -4px rgba(16, 196, 252, 0.25);
+}
+
+.glow-card:hover::after {
+  opacity: 1;
+}
+
+.tech-grid-bg {
+  background-image: radial-gradient(rgba(16, 196, 252, 0.08) 1px, transparent 0);
+  background-size: 32px 32px;
+}
+
+.circuit-lines {
+  background-image: 
+    linear-gradient(to right, rgba(23, 37, 84, 0.3) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(23, 37, 84, 0.3) 1px, transparent 1px);
+  background-size: 48px 48px;
+}

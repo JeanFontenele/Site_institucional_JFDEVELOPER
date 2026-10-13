@@ -1,0 +1,113 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" rx="16" fill="#01113E"/>
+  <rect x="1" y="1" width="798" height="498" rx="15" stroke="#172554" stroke-width="2"/>
+  
+  <!-- Window Header -->
+  <rect x="0" y="0" width="800" height="48" rx="16" fill="#010C2B"/>
+  <rect x="0" y="32" width="800" height="16" fill="#010C2B"/>
+  <line x1="0" y1="48" x2="800" y2="48" stroke="#172554"/>
+  <circle cx="30" cy="24" r="6" fill="#EF4444"/>
+  <circle cx="48" cy="24" r="6" fill="#F59E0B"/>
+  <circle cx="66" cy="24" r="6" fill="#10B981"/>
+  <rect x="100" y="14" width="320" height="20" rx="6" fill="#011959"/>
+  <text x="120" y="28" fill="#A7B2C5" font-family="monospace" font-size="11">nexus-crm.jfdeveloper.io/dashboard</text>
+  
+  <!-- Sidebar -->
+  <rect x="0" y="48" width="180" height="452" fill="#010C2B"/>
+  <line x1="180" y1="48" x2="180" y2="500" stroke="#172554"/>
+  
+  <rect x="20" y="70" width="140" height="32" rx="8" fill="#0068F5" fill-opacity="0.2"/>
+  <rect x="28" y="78" width="16" height="16" rx="4" fill="#0068F5"/>
+  <rect x="52" y="82" width="70" height="8" rx="4" fill="#F1F5F9"/>
+  
+  <rect x="28" y="120" width="16" height="16" rx="4" fill="#172554"/>
+  <rect x="52" y="124" width="80" height="8" rx="4" fill="#A7B2C5"/>
+  
+  <rect x="28" y="156" width="16" height="16" rx="4" fill="#172554"/>
+  <rect x="52" y="160" width="60" height="8" rx="4" fill="#A7B2C5"/>
+  
+  <rect x="28" y="192" width="16" height="16" rx="4" fill="#172554"/>
+  <rect x="52" y="196" width="90" height="8" rx="4" fill="#A7B2C5"/>
+
+  <!-- Content Dashboard -->
+  <!-- Stats Row -->
+  <g transform="translate(204, 70)">
+    <!-- Stat 1 -->
+    <rect width="170" height="84" rx="12" fill="#011959" stroke="#172554"/>
+    <text x="16" y="28" fill="#A7B2C5" font-family="sans-serif" font-size="12">Leads Qualificados</text>
+    <text x="16" y="58" fill="#F1F5F9" font-family="sans-serif" font-size="24" font-weight="bold">1.482</text>
+    <rect x="110" y="42" width="48" height="20" rx="10" fill="#0068F5" fill-opacity="0.2"/>
+    <text x="118" y="56" fill="#10C4FC" font-family="sans-serif" font-size="11" font-weight="600">+28%</text>
+    
+    <!-- Stat 2 -->
+    <g transform="translate(190, 0)">
+      <rect width="170" height="84" rx="12" fill="#011959" stroke="#172554"/>
+      <text x="16" y="28" fill="#A7B2C5" font-family="sans-serif" font-size="12">Conversão IA</text>
+      <text x="16" y="58" fill="#10C4FC" font-family="sans-serif" font-size="24" font-weight="bold">84.2%</text>
+      <circle cx="140" cy="50" r="14" stroke="#0068F5" stroke-width="3" fill="none"/>
+      <circle cx="140" cy="50" r="14" stroke="#10C4FC" stroke-width="3" stroke-dasharray="60 30" fill="none"/>
+    </g>
+
+    <!-- Stat 3 -->
+    <g transform="translate(380, 0)">
+      <rect width="186" height="84" rx="12" fill="#011959" stroke="#172554"/>
+      <text x="16" y="28" fill="#A7B2C5" font-family="sans-serif" font-size="12">Receita em Pipeline</text>
+      <text x="16" y="58" fill="#F1F5F9" font-family="sans-serif" font-size="22" font-weight="bold">R$ 480.000</text>
+    </g>
+  </g>
+
+  <!-- Big Chart Card -->
+  <g transform="translate(204, 174)">
+    <rect width="566" height="170" rx="12" fill="#011959" stroke="#172554"/>
+    <text x="20" y="32" fill="#F1F5F9" font-family="sans-serif" font-size="14" font-weight="600">Desempenho Comercial &amp; Automação</text>
+    <rect x="440" y="16" width="106" height="24" rx="6" fill="#0068F5" fill-opacity="0.2"/>
+    <text x="450" y="32" fill="#10C4FC" font-family="sans-serif" font-size="11">Tempo Real</text>
+    
+    <!-- Grid Lines -->
+    <line x1="20" y1="60" x2="546" y2="60" stroke="#172554" stroke-dasharray="4 4"/>
+    <line x1="20" y1="100" x2="546" y2="100" stroke="#172554" stroke-dasharray="4 4"/>
+    <line x1="20" y1="140" x2="546" y2="140" stroke="#172554"/>
+    
+    <!-- Chart Waves -->
+    <path d="M 20 130 Q 80 110, 140 115 T 260 85 T 380 70 T 500 50 L 540 45 L 540 140 L 20 140 Z" fill="url(#chartGrad)" opacity="0.4"/>
+    <path d="M 20 130 Q 80 110, 140 115 T 260 85 T 380 70 T 500 50 L 540 45" stroke="#10C4FC" stroke-width="3" fill="none"/>
+    <circle cx="500" cy="50" r="5" fill="#10C4FC"/>
+    <circle cx="500" cy="50" r="9" stroke="#10C4FC" stroke-width="2" opacity="0.6"/>
+  </g>
+
+  <!-- Bottom Pipeline cards -->
+  <g transform="translate(204, 360)">
+    <rect width="176" height="110" rx="10" fill="#010C2B" stroke="#172554"/>
+    <text x="14" y="24" fill="#A7B2C5" font-family="sans-serif" font-size="11" font-weight="600">PROSPECÇÃO</text>
+    <rect x="14" y="38" width="148" height="28" rx="6" fill="#011959"/>
+    <rect x="22" y="48" width="80" height="8" rx="4" fill="#F1F5F9"/>
+    <rect x="14" y="72" width="148" height="28" rx="6" fill="#011959"/>
+    <rect x="22" y="82" width="60" height="8" rx="4" fill="#A7B2C5"/>
+  </g>
+
+  <g transform="translate(398, 360)">
+    <rect width="176" height="110" rx="10" fill="#010C2B" stroke="#172554"/>
+    <text x="14" y="24" fill="#0068F5" font-family="sans-serif" font-size="11" font-weight="600">EM NEGOCIAÇÃO</text>
+    <rect x="14" y="38" width="148" height="28" rx="6" fill="#011959" stroke="#0068F5" stroke-opacity="0.4"/>
+    <rect x="22" y="48" width="90" height="8" rx="4" fill="#10C4FC"/>
+    <rect x="14" y="72" width="148" height="28" rx="6" fill="#011959"/>
+    <rect x="22" y="82" width="70" height="8" rx="4" fill="#A7B2C5"/>
+  </g>
+
+  <g transform="translate(592, 360)">
+    <rect width="178" height="110" rx="10" fill="#010C2B" stroke="#172554"/>
+    <text x="14" y="24" fill="#10C4FC" font-family="sans-serif" font-size="11" font-weight="600">FECHADO / CONTRATO</text>
+    <rect x="14" y="38" width="150" height="28" rx="6" fill="#011959" stroke="#10C4FC" stroke-opacity="0.5"/>
+    <rect x="22" y="48" width="100" height="8" rx="4" fill="#F1F5F9"/>
+    <rect x="14" y="72" width="150" height="28" rx="6" fill="#011959"/>
+    <rect x="22" y="82" width="85" height="8" rx="4" fill="#A7B2C5"/>
+  </g>
+
+  <defs>
+    <linearGradient id="chartGrad" x1="280" y1="45" x2="280" y2="140" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#10C4FC" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#0068F5" stop-opacity="0.0"/>
+    </linearGradient>
+  </defs>
+</svg>
+
